@@ -35,6 +35,7 @@ public class BD extends SQLiteOpenHelper {
                 break;
 
             case "eliminar":
+                
                 break;
 
             default:
