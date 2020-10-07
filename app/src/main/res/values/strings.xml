@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CRU DE PRODUCTOS</string>
+    <string name="buscarproducto">BuscarProducto</string>
 </resources>

@@ -10,13 +10,30 @@
         android:id="@+id/txtBuscarProductos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="auto"
-        android:fontFamily="sans-serif-condensed-light"
-        android:hint="Buscar_Productos" />
+        android:hint="Buscar Amigos"/>
     <ListView
-        android:id="@+id/ListaDeProductos"
+        android:id="@+id/ltsProductos"
         android:layout_marginTop="60dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
 
-</RelativeLayout>
+
+    </ListView>
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ButtonFloatNuevoProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            android:clickable="true"
+        />
+
+    </RelativeLayout>
+
+
+

@@ -4,44 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AgregarProducto"
+    tools:context=".agregarProducto"
     android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgFotoProducto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        />
 
     <EditText
         android:id="@+id/txtNombreProducto"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
-        android:hint="Nombre"/>
+        android:hint="Nombre" />
+
     <EditText
         android:id="@+id/txtDescripcion"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="100dp"
-        android:hint="Descripcion"/>
+        android:hint="Descripcion" />
+
     <EditText
         android:id="@+id/txtPrecio"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="170dp"
-        android:hint="Precio"/>
+        android:hint="Precio" />
+
     <EditText
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="245dp"
-        android:hint="ImagenProducto"/>
+        android:hint="ImagenProducto" />
+
     <Button
         android:id="@+id/btnGuardarProductos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
-        android:text="Guardar Productos:"/>
+        android:text="Guardar Productos:" />
+
     <Button
         android:id="@+id/btnMostrarProductos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="370dp"
-        android:text="Mostrar Productos:"/>
+        android:text="Mostrar Productos:" />
 
 </RelativeLayout>
